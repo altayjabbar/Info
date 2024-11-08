@@ -1,0 +1,54 @@
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.log
+pytest_cache/
+pip-log.txt
+
+# Django stuff:
+*.db
+db.sqlite3
+
+# Media/uploads (optional)
+media/
+
+# Static files (optional, if collected separately)
+staticfiles/
+
+# Environment variables
+.env.*
+!.env.example
+
+# Virtual environment folders
+venv/
+env/
+
+# Git related
+.git/
+.gitignore
+.gitattributes
+
+# IDE/editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
