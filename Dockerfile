@@ -10,5 +10,5 @@ COPY . /app
 # Tələb olunan paketləri yükləyirik
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Django layihəsini işə salırıq
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+EXPOSE 8000
+
