@@ -83,14 +83,15 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # PostgreSQL database
-        'NAME': os.getenv('POSTGRES_DB'),           # Database name
-        'USER': os.getenv('POSTGRES_USER'),         # Database user
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD'), # User password
-        'HOST': os.getenv('POSTGRES_HOST', 'localhost'),  # Database host
-        'PORT': os.getenv('POSTGRES_PORT', '5432'),       # Database port
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'infoo_db',  # PostgreSQL verilənlər bazasının adı
+        'USER': 'infoo_user',  # PostgreSQL istifadəçiniz
+        'PASSWORD': 'password',  # PostgreSQL istifadəçisinin şifrəsi
+        'HOST': 'localhost',  # PostgreSQL serverinin ünvanı
+        'PORT': '5432',  # PostgreSQL portu (adətən 5432)
     }
 }
+
 
         
 # Password validation
